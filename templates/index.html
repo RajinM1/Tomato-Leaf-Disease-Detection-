@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tomato Leaf Doctor 🌿</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/script.js"></script>
+</head>
+<body>
+  <h1>🍅 Tomato Leaf Disease Detector</h1>
+
+  <form action="/predict" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" accept="image/*" onchange="previewImage(event)" required>
+    <br>
+    <button type="submit">Analyze Leaf</button>
+  </form>
+
+  <div class="result-card">
+    <img id="preview" src="/static/placeholder_leaf.jpg" alt="Leaf preview" style="display:block;">
+    {% if result %}
+      <h2>{{ result.disease }}</h2>
+      <p class="confidence">Confidence: {{ result.confidence }}</p>
+      <p class="advice">{{ result.advice }}</p>
+    {% endif %}
+  </div>
+
+  <footer style="margin-top:30px; font-size:0.8rem; color:#777;">
+    © 2025 Tomato Leaf Doctor | Built By Rajin ❤️
+  </footer>
+</body>
+</html>

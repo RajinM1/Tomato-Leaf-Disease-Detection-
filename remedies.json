@@ -1,0 +1,12 @@
+{
+  "Tomato___Bacterial_spot": "Remove infected leaves, use copper-based fungicide, avoid overhead watering.",
+  "Tomato___Early_blight": "Apply fungicide (chlorothalonil), rotate crops, remove debris.",
+  "Tomato___Late_blight": "Destroy affected plants, apply mancozeb or chlorothalonil sprays.",
+  "Tomato___Leaf_Mold": "Improve ventilation, use resistant varieties, apply fungicide.",
+  "Tomato___Septoria_leaf_spot": "Remove lower leaves, use copper fungicide, practice crop rotation.",
+  "Tomato___Spider_mites Two-spotted_spider_mite": "Use neem oil or insecticidal soap.",
+  "Tomato___Target_Spot": "Remove diseased leaves, apply protective fungicides.",
+  "Tomato___Tomato_mosaic_virus": "Remove infected plants, disinfect tools, control aphids.",
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": "Control whiteflies, remove infected plants, use resistant seeds.",
+  "Tomato___healthy": "Leaf appears healthy. Maintain balanced watering and nutrients."
+}
